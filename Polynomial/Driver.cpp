@@ -3,6 +3,9 @@ using namespace std;
 
 #include "Polynomial.h"
 
+void test1() {
+  
+}
 int main()
 
 {
@@ -43,7 +46,7 @@ int main()
 	cout << p1.coefficient(3)<<endl;
 	cout << p2.coefficient(2) << endl;
 
-	//Polynomial p3; 
+	//Polynomial p3;
 	//Polynomial p4;
 
 	//p3.changeCoefficient(2, 2);
@@ -98,5 +101,5 @@ int main()
 	//p5 = p4;
 
 	cout << "p5 = " << p4 << endl;
-	
+
 }
